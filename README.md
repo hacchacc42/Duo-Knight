@@ -1,5 +1,6 @@
 # Duo-Knight
 Duo Knight is a 2D platformer made in C++ using the SDL library.
+![DUO KNIGHT](https://github.com/hacchacc42/Duo-Knight/blob/main/Project/DK.png)
 
 It was my lastassignment for the Game Engine Creation module, on Level 4, at Staffordshire University.
 
