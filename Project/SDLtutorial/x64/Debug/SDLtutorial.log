@@ -1,0 +1,11 @@
+﻿  SDLtutorial.cpp
+SDLtutorial.obj : error LNK2019: unresolved external symbol IMG_Init referenced in function "bool __cdecl InitSDL(void)" (?InitSDL@@YA_NXZ)
+SDLtutorial.obj : error LNK2019: unresolved external symbol IMG_Quit referenced in function "void __cdecl CLoseSDL(void)" (?CLoseSDL@@YAXXZ)
+SDLtutorial.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "struct SDL_Texture * __cdecl LoadTextureFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?LoadTextureFromFile@@YAPEAUSDL_Texture@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+SDLtutorial.obj : error LNK2019: unresolved external symbol "void __cdecl FreeTexture(void)" (?FreeTexture@@YAXXZ) referenced in function "struct SDL_Texture * __cdecl LoadTextureFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?LoadTextureFromFile@@YAPEAUSDL_Texture@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+SDL2\SDL\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SDL2\SDL\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SDL2\SDL\SDL2test.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SDL2\SDL\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SDL2\SDL\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\STEFAN\Desktop\School\GEC2\SDLtutorial - Copy (2)\x64\Debug\SDLtutorial.exe : fatal error LNK1120: 4 unresolved externals
